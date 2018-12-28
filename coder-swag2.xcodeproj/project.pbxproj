@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA09DB3D21D5A6390079F245 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB3C21D5A6390079F245 /* CategoryCell.swift */; };
+		BA09DB3F21D5ACEF0079F245 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB3E21D5ACEF0079F245 /* Category.swift */; };
+		BA09DB4221D5AE6B0079F245 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB4121D5AE6B0079F245 /* DataService.swift */; };
+		BA09DB4421D5C8610079F245 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB4321D5C8610079F245 /* ProductCell.swift */; };
+		BA09DB4621D5D30B0079F245 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB4521D5D30B0079F245 /* Product.swift */; };
+		BA09DB4821D5D7A70079F245 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09DB4721D5D7A70079F245 /* ProductsVC.swift */; };
 		BA11003A21D59EDE0039BFE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11003921D59EDE0039BFE2 /* AppDelegate.swift */; };
-		BA11003C21D59EDE0039BFE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11003B21D59EDE0039BFE2 /* ViewController.swift */; };
+		BA11003C21D59EDE0039BFE2 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA11003B21D59EDE0039BFE2 /* CategoriesVC.swift */; };
 		BA11003F21D59EDE0039BFE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA11003D21D59EDE0039BFE2 /* Main.storyboard */; };
 		BA11004121D59EE10039BFE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA11004021D59EE10039BFE2 /* Assets.xcassets */; };
 		BA11004421D59EE10039BFE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA11004221D59EE10039BFE2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA09DB3C21D5A6390079F245 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA09DB3E21D5ACEF0079F245 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BA09DB4121D5AE6B0079F245 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BA09DB4321D5C8610079F245 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		BA09DB4521D5D30B0079F245 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BA09DB4721D5D7A70079F245 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
 		BA11003621D59EDE0039BFE2 /* coder-swag2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA11003921D59EDE0039BFE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA11003B21D59EDE0039BFE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA11003B21D59EDE0039BFE2 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		BA11003E21D59EDE0039BFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA11004021D59EE10039BFE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA11004321D59EE10039BFE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +47,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA09DB3921D5A56E0079F245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA09DB3E21D5ACEF0079F245 /* Category.swift */,
+				BA09DB4521D5D30B0079F245 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA09DB3A21D5A5750079F245 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA11003B21D59EDE0039BFE2 /* CategoriesVC.swift */,
+				BA09DB4721D5D7A70079F245 /* ProductsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA09DB3B21D5A57D0079F245 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA09DB3C21D5A6390079F245 /* CategoryCell.swift */,
+				BA09DB4321D5C8610079F245 /* ProductCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA09DB4021D5AE4F0079F245 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA09DB4121D5AE6B0079F245 /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		BA11002D21D59EDE0039BFE2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +101,11 @@
 		BA11003821D59EDE0039BFE2 /* coder-swag2 */ = {
 			isa = PBXGroup;
 			children = (
+				BA09DB4021D5AE4F0079F245 /* Services */,
+				BA09DB3B21D5A57D0079F245 /* View */,
+				BA09DB3A21D5A5750079F245 /* Controller */,
+				BA09DB3921D5A56E0079F245 /* Model */,
 				BA11003921D59EDE0039BFE2 /* AppDelegate.swift */,
-				BA11003B21D59EDE0039BFE2 /* ViewController.swift */,
 				BA11003D21D59EDE0039BFE2 /* Main.storyboard */,
 				BA11004021D59EE10039BFE2 /* Assets.xcassets */,
 				BA11004221D59EE10039BFE2 /* LaunchScreen.storyboard */,
@@ -135,8 +185,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA11003C21D59EDE0039BFE2 /* ViewController.swift in Sources */,
+				BA09DB4821D5D7A70079F245 /* ProductsVC.swift in Sources */,
+				BA11003C21D59EDE0039BFE2 /* CategoriesVC.swift in Sources */,
 				BA11003A21D59EDE0039BFE2 /* AppDelegate.swift in Sources */,
+				BA09DB3D21D5A6390079F245 /* CategoryCell.swift in Sources */,
+				BA09DB4421D5C8610079F245 /* ProductCell.swift in Sources */,
+				BA09DB3F21D5ACEF0079F245 /* Category.swift in Sources */,
+				BA09DB4221D5AE6B0079F245 /* DataService.swift in Sources */,
+				BA09DB4621D5D30B0079F245 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
